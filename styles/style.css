@@ -312,7 +312,7 @@ footer li:hover {
     color: #26bba4;
 }
 
-@media screen and (min-width:375px) {
+@media screen and (min-width:480px) {
     header {
         width: 100%;
     }
