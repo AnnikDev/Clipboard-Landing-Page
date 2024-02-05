@@ -457,7 +457,7 @@ footer li:hover {
         justify-content: space-around;
     }
 
-    footer ul{
+    footer ul {
         width: 500px;
         height: 70px;
         display: grid;
@@ -466,7 +466,7 @@ footer li:hover {
         text-align: start;
     }
 
-    footer li{
+    footer li {
         margin: 0;
     }
 }
