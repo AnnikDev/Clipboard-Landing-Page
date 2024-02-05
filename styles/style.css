@@ -88,6 +88,10 @@ main {
     cursor: pointer;
 }
 
+.for-ios:hover{
+    background-color: #26bba5bd;
+}
+
 .for-mac {
     width: 311px;
     height: 56px;
@@ -105,6 +109,10 @@ main {
     text-align: center;
     color: #fff;
     cursor: pointer;
+}
+
+.for-mac:hover{
+    background-color: #6173ffcb;
 }
 
 h2 {
@@ -270,6 +278,11 @@ footer ul {
 footer li {
     height: 30px;
     margin: 10px 0;
+    cursor: pointer;
+}
+
+footer li:hover{
+    color: #26bba4;
 }
 
 .social-networks {
@@ -278,9 +291,16 @@ footer li {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
-.social-networks img{
+.social-networks i{
     cursor: pointer;
+    font-size: 30px;
+    color: #4c545c;
+
 }
+
+.social-networks i:hover{
+    color: #26bba4;
+}
+
