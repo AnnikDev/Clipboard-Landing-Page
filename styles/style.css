@@ -88,7 +88,7 @@ main {
     cursor: pointer;
 }
 
-.for-ios:hover{
+.for-ios:hover {
     background-color: #26bba5bd;
 }
 
@@ -111,7 +111,7 @@ main {
     cursor: pointer;
 }
 
-.for-mac:hover{
+.for-mac:hover {
     background-color: #6173ffcb;
 }
 
@@ -281,7 +281,7 @@ footer li {
     cursor: pointer;
 }
 
-footer li:hover{
+footer li:hover {
     color: #26bba4;
 }
 
@@ -293,14 +293,13 @@ footer li:hover{
     align-items: center;
 }
 
-.social-networks i{
+.social-networks i {
     cursor: pointer;
     font-size: 30px;
     color: #4c545c;
 
 }
 
-.social-networks i:hover{
+.social-networks i:hover {
     color: #26bba4;
 }
-
