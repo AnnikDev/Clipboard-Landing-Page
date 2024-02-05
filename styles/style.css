@@ -7,6 +7,7 @@ body {
 }
 
 header {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +18,10 @@ header {
     height: 363px;
 }
 
+.header-bck.desktop {
+    display: none;
+}
+
 header svg {
     width: 125px;
     height: 125px;
@@ -25,6 +30,10 @@ header svg {
 
 main {
     margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-title {
@@ -301,4 +310,163 @@ footer li:hover {
 
 .social-networks i:hover {
     color: #26bba4;
+}
+
+@media screen and (min-width:375px) {
+    header {
+        width: 100%;
+    }
+
+    .header-bck {
+        display: none;
+    }
+
+    .header-bck.desktop {
+        position: inherit;
+        width: 100%;
+        height: 363px;
+        display: flex;
+    }
+
+    .main-title {
+        width: 730px;
+        height: 58px;
+        font-size: 46px;
+    }
+
+    .par.full {
+        width: 730px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+
+    .for-ios {
+        width: 227px;
+        height: 56px;
+        margin-right: 10px;
+    }
+
+    .for-mac {
+        width: 227px;
+        height: 56px;
+        margin-left: 10px;
+    }
+
+    .ktoys {
+        width: 730px;
+        height: 45px;
+        font-size: 36px;
+    }
+
+    .comp-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1500px;
+    }
+
+    .devices.comp {
+        width: 720px;
+        height: 572px;
+        padding-right: 100px;
+    }
+
+    .qs {
+        text-align: start;
+    }
+
+    .is {
+        text-align: start;
+    }
+
+    .ch {
+        text-align: start;
+    }
+
+    .aca {
+        width: 730px;
+        height: 45px;
+        font-size: 36px;
+    }
+
+    .tab {
+        width: 900px;
+    }
+
+    .syw {
+        width: 730px;
+        height: 45px;
+        font-size: 36px;
+    }
+
+    .workflow {
+        flex-direction: row;
+        height: 200px;
+        width: 1140px;
+        margin-top: 20px;
+    }
+
+    .partners-logos {
+        flex-direction: row;
+        height: 340px;
+        width: 1140px;
+    }
+
+    .google {
+        width: 180px;
+        height: 50px;
+        flex-grow: 0;
+    }
+
+    .ibm {
+        width: 144px;
+        height: 72px;
+    }
+
+    .microsoft {
+        width: 180px;
+        height: 48px;
+    }
+
+    .hp {
+        width: 134.1px;
+        height: 56px;
+    }
+
+    .vector {
+        width: 125px;
+        height: 30px;
+    }
+
+    .clipboard-title {
+        width: 730px;
+        height: 45px;
+        font-size: 36px;
+    }
+
+    footer {
+        width: 100%;
+        height: 150px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer ul{
+        width: 500px;
+        height: 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        text-align: start;
+    }
+
+    footer li{
+        margin: 0;
+    }
 }
