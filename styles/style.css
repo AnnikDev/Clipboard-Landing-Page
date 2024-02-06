@@ -318,6 +318,10 @@ footer li:hover {
 }
 
 @media screen and (min-width:375px) {
+
+}
+
+@media screen and (min-width:1440px) {
     header {
         width: 100%;
     }
@@ -336,6 +340,7 @@ footer li:hover {
     main {
         width: 1440px;
         margin: auto;
+        margin-top: 100px;
     }
 
     .main-title {
@@ -418,14 +423,14 @@ footer li:hover {
     .workflow {
         flex-direction: row;
         height: 200px;
-        width: 1140px;
+        width: 1440px;
         margin-top: 20px;
     }
 
     .partners-logos {
         flex-direction: row;
         height: 340px;
-        width: 1140px;
+        width: 1440px;
     }
 
     .google {
