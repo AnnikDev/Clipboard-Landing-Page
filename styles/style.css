@@ -320,10 +320,12 @@ footer li:hover {
 @media screen and (min-width:375px) {
     html {
         width: 1440px;
+        margin: auto;
     }
 
     body {
         width: 100%;
+        margin: auto;
     }
 
     header {
